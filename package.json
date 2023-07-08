@@ -1,0 +1,22 @@
+{
+  "name": "augustafinance",
+  "version": "1.0.0",
+  "description": "Supercharger For DEFI In OP Stack.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Augustafinance/AugustaFinance.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Augustafinance/AugustaFinance/issues"
+  },
+  "homepage": "https://github.com/Augustafinance/AugustaFinance#readme",
+  "devDependencies": {
+    "hardhat": "^2.16.1"
+  }
+}
