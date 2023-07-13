@@ -101,4 +101,28 @@ library DataTypes {
         //borrow amount of loan
         uint256 bidBorrowAmount;
     }
+
+    struct LockedBalance {
+        int128 amount;
+        uint end;
+    }
+
+    /**
+     * list the loan data for ui
+     */
+    struct AggregatedLoanData {
+        uint256 tokenId;
+        uint256 loanId;
+        uint256 state;
+        address reserveAsset;
+        uint256 totalCollateralInReserve;
+        uint256 totalDebtInReserve;
+        uint256 availableBorrowsInReserve;
+        uint256 healthFactor;
+        uint256 liquidatePrice;
+        address bidderAddress;
+        uint256 bidPrice;
+        uint256 bidBorrowAmount;
+        uint256 bidFine;
+  }
 }
